@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28822.285
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnkeiSolution", "OnkeiSolution\OnkeiSolution.csproj", "{D721DB61-CB55-4267-9371-16856395B7BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnkeiSolutionLib", "OnkeiSolutionLib\OnkeiSolutionLib.csproj", "{DDA1A477-914D-42AA-B1B8-9AB5FD6EAADD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D721DB61-CB55-4267-9371-16856395B7BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D721DB61-CB55-4267-9371-16856395B7BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D721DB61-CB55-4267-9371-16856395B7BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D721DB61-CB55-4267-9371-16856395B7BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDA1A477-914D-42AA-B1B8-9AB5FD6EAADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDA1A477-914D-42AA-B1B8-9AB5FD6EAADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDA1A477-914D-42AA-B1B8-9AB5FD6EAADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDA1A477-914D-42AA-B1B8-9AB5FD6EAADD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE6F65DB-194F-4C38-BF0F-3C52621801DD}
+	EndGlobalSection
+EndGlobal
