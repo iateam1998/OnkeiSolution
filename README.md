@@ -2,6 +2,19 @@
 > LuanDNH
 ## This shell is used for install dotnet core on server ubuntu and install sqlmap and nmap
 
+##### You just run file shell, it will directly install on dependence packets.
+1.
+    ```
+    cd OnkeiSolution
+    chmod +x shell.sh
+    ```
+    
+2.
+    ```
+    ./shell.sh
+    ```
+##### Manualy install
+
 1. Register Microsoft key and feed
     ```
     wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
