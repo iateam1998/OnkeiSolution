@@ -13,6 +13,12 @@
     ```
     ./shell.sh
     ```
+3. Run project manualy
+    ```
+    cd PublishSolution
+    dotnet ./OnkeiSolution.dll
+    ```
+4. Open browser and go to 0.0.0.0:5000
 ##### Manualy install
 
 1. Register Microsoft key and feed
