@@ -4,6 +4,62 @@
         <name>OnkeiSolution</name>
     </assembly>
     <members>
+        <member name="M:OnkeiSolution.Controllers.NetworkMapperController.BasicScan1Host(System.String)">
+            <summary>
+            Basic Nmap Scan against IP or host
+            </summary>
+            <param name="host"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnkeiSolution.Controllers.NetworkMapperController.BasicScanMultiHost(System.Collections.Generic.List{System.String})">
+            <summary>
+            Scan multiple IP addresses
+            </summary>
+            <param name="hosts"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnkeiSolution.Controllers.NetworkMapperController.ScanPort(OnkeiSolutionLib.Model.NMapModel.NMapWithPortOptionModel)">
+            <summary>
+            Scan specific ports or scan entire port ranges on a local or remote server
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnkeiSolution.Controllers.NetworkMapperController.ScanPopularPort(OnkeiSolutionLib.Model.NMapModel.NMapWithTopXportOptionModel)">
+            <summary>
+            Scan the most popular ports
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnkeiSolution.Controllers.NetworkMapperController.ScanOSFastExecution(System.String)">
+            <summary>
+            Scan + OS and service detection with fast execution
+            </summary>
+            <param name="host"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnkeiSolution.Controllers.NetworkMapperController.DetectServiceDaemon(System.String)">
+            <summary>
+            Detect service/daemon versions
+            </summary>
+            <param name="host"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnkeiSolution.Controllers.NetworkMapperController.ScanTCPOrUDP(OnkeiSolutionLib.Model.NMapModel.NMapTcpOrUdpOptionModel)">
+            <summary>
+            Scan using TCP or UDP protocols
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnkeiSolution.Controllers.NetworkMapperController.DetectVulnerability(System.String)">
+            <summary>
+            Vulnerability detection using Nmap
+            </summary>
+            <param name="host"></param>
+            <returns></returns>
+        </member>
         <member name="M:OnkeiSolution.Controllers.SqlMapController.GetDBVersion(OnkeiSolutionLib.Model.SqlMapModel.SqlMapOptionModel)">
             <summary>
             List information about the existing databases 

@@ -47,11 +47,22 @@ namespace OnkeiSolutionLib.Util
             //{
             //    return null;
             //}
-            if(Uri.CheckHostName(hostName) == UriHostNameType.Unknown)
+            if (Uri.CheckHostName(hostName) == UriHostNameType.Unknown)
             {
                 return null;
             }
             return hostName;
+        }
+        public static List<string> CheckIpOrHost(List<string> hosts)
+        {
+            foreach (string host in hosts)
+            {
+                if (Uri.CheckHostName(host) == UriHostNameType.Unknown)
+                {
+                    return null;
+                }
+            }
+            return hosts;
         }
         public static string SaveFile(string fileName, string content)
         {
