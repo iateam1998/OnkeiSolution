@@ -4,5 +4,40 @@
         <name>OnkeiSolution</name>
     </assembly>
     <members>
+        <member name="M:OnkeiSolution.Controllers.SqlMapController.GetDBVersion(OnkeiSolutionLib.Model.SqlMapModel.SqlMapOptionModel)">
+            <summary>
+            List information about the existing databases 
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnkeiSolution.Controllers.SqlMapController.ListInformationTables(OnkeiSolutionLib.Model.SqlMapModel.SqlMapWithDBOptionModel)">
+            <summary>
+            List information about Tables present in a particular Database
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnkeiSolution.Controllers.SqlMapController.ListInformationColumnsOfTable(OnkeiSolutionLib.Model.SqlMapModel.SqlMapWithDBAndTableOptionModel)">
+            <summary>
+            List information about the columns of a particular table
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnkeiSolution.Controllers.SqlMapController.GetUserAndRole(OnkeiSolutionLib.Model.SqlMapModel.SqlMapOptionModel)">
+            <summary>
+            Get user and role.
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnkeiSolution.Controllers.SqlMapController.GetCurrentUserDatabaseAndHostnameInformation(OnkeiSolutionLib.Model.SqlMapModel.SqlMapOptionModel)">
+            <summary>
+            Get current user, current database and hostname information.
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>

@@ -10,4 +10,20 @@ namespace OnkeiSolutionLib.Model.SqlMapModel
         [Required]
         public string HostName { get; set; }
     }
+    public class SqlMapWithDBOptionModel
+    {
+        [Required]
+        public string HostName { get; set; }
+        [Required]
+        public string Database { get; set; }
+    }
+    public class SqlMapWithDBAndTableOptionModel
+    {
+        [Required]
+        public string HostName { get; set; }
+        [Required]
+        public string Database { get; set; }
+        [Required]
+        public string TableName { get; set; }
+    }
 }
